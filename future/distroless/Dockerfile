@@ -1,6 +1,9 @@
 FROM gcr.io/distroless/python3
 EXPOSE 8080
-COPY . /srv/distroless
-WORKDIR /srv/distroless
+COPY distroless /srv/app/
+COPY distroless.py /srv/app/
+COPY libraries /srv/app/
+COPY static /srv/app/
+WORKDIR /srv/app
 CMD ["distroless.py"]
 

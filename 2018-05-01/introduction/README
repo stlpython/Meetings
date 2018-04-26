@@ -1,7 +1,15 @@
+
 https://github.com/GoogleCloudPlatform/distroless
 
 example: 
 
 docker run -ti gcr.io/distroless/python3 "--version"
 Python 3.5.3
+
+
+
+
+
+docker build .
+docker run -it <image id>
 

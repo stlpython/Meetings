@@ -8,4 +8,3 @@ WORKDIR /srv/app
 CMD ["distroless.py"]
 HEALTHCHECK CMD ["/usr/bin/python3.5", "-V"]
 
-

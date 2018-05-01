@@ -6,6 +6,6 @@ EXPOSE 8080/TCP
 COPY . /srv/app
 WORKDIR /srv/app
 CMD ["distroless.py"]
-HEALTHCHECK CMD ["/usr/bin/python", "-v"]
+HEALTHCHECK CMD ["/usr/bin/python3.5", "-V"]
 
 

@@ -45,6 +45,11 @@ class DistrolessDemo(object):
         return "running"
 
     @cherrypy.expose
+    def r(self):
+        import random
+        return str(random.randint(9999, 99999))
+
+    @cherrypy.expose
     def u(self):
         return "users"
 

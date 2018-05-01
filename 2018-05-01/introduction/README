@@ -10,6 +10,6 @@ Python 3.5.3
 
 
 
-docker build .
-docker run -it <image id>
-
+docker build -t introduction && docker run -it introduction
+curl -w "\n" http://172.17.0.2:8080/api/
+docker rmi introduction

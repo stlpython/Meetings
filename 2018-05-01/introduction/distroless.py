@@ -13,11 +13,11 @@ host = "::"
 port = 8080
 
 conf = {
-    '/': { 'tools.staticdir.root': "/srv/app/static" },
+    '/': { 'tools.staticdir.root': "/srv/app" },
     '/static':
         {
             'tools.staticdir.on': True,
-            'tools.staticdir.dir': "/srv/app/static"
+            'tools.staticdir.dir': "static"
         },
     '/favicon.ico':
         {

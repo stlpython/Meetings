@@ -11,12 +11,12 @@ CET Showroom at CIC - St. Louis
 We'll be covering the installation of Python on various platforms as well as basics of writing and running Python applications.
 
 * Environment
-** Packages/Modules
-** IDE
+* * Packages/Modules
+* * IDE
 * Source Code
-** Organization (stress that there is no wrong, only slightly confusing for the next person)
+* * Organization (stress that there is no wrong, only slightly confusing for the next person)
 * Testing
-** Unit Test
+*  * Unit Test
 ** Coverage
-** Profiling
+* * Profiling
 * Documentation

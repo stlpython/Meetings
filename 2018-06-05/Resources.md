@@ -3,6 +3,7 @@
 
 ### Tutorials
 * https://docs.python.org/3/tutorial/index.html
+* https://www.codecademy.com/learn/learn-python
 
 ### Books
 * https://wiki.python.org/moin/PythonBooks

@@ -11,10 +11,15 @@ CET Showroom at CIC - St. Louis
 We'll be covering the installation of Python on various platforms as well as basics of writing and running Python applications.
 
 * Environment
+* * pyenv
+* * virtualenv
 * * Interpreter https://docs.python.org/3/tutorial/interpreter.html
 * * Packages/Modules
 * * IDE (Eric, Idle, others)
 * Source Code
+* * Variables
+* * Control flow
+* * Loops
 * * Organization (stress that there is no wrong, only slightly confusing for the next person)
 * Testing
 *  * Unit Test

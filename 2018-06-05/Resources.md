@@ -6,6 +6,7 @@
 
 ### Books
 * https://wiki.python.org/moin/PythonBooks
+* https://en.wikibooks.org/wiki/A_Beginner%27s_Python_Tutorial
 
 ### APIs
 * https://www.fullstackpython.com/api-creation.html
@@ -15,3 +16,7 @@
 
 ### 2 VS 3
 * https://www.tomaz.me/2011/12/03/lessons-learned-while-porting-libcloud-to-python-3.html
+
+### Learning Classes
+* https://code.he.net/
+* https://developers.google.com/edu/python/introduction

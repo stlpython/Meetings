@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 import os
 import sys
 lib = './libraries/'
@@ -9,6 +7,9 @@ if os.path.isdir(lib):
             sys.path.insert(1, lib + f)
 import cherrypy
 
+"""
+Bind to all interfaces including IPv6 interfaces
+"""
 host = "::"
 port = 8080
 
@@ -37,20 +38,11 @@ api_conf = {
 class DistrolessDemo(object):
     @cherrypy.expose
     def index(self):
-        return "Hello World!"
+        return "<html><h1>Welcome to the Google Distroless Demo!</h1></html>"
 
     @cherrypy.expose
     def status(self):
-        return "running"
-
-    @cherrypy.expose
-    def r(self):
-        import random
-        return str(random.randint(9999, 99999))
-
-    @cherrypy.expose
-    def u(self):
-        return "users"
+        return '<html><h1 style="background-color:#aca;">Status: Green</h1></html>'
 
     @cherrypy.expose
     def file(self):
@@ -63,7 +55,7 @@ class DistrolessDemo(object):
 
     @cherrypy.expose
     def upload(self, myFile):
-        out = """<html></pre>
+        output = """<html></pre>
             myFile length: %s<br />
             myFile filename: %s<br />
             myFile mime-type: %s
@@ -75,7 +67,7 @@ class DistrolessDemo(object):
             if not data:
                 break
             size += len(data)
-        return out % (size, myFile.filename, myFile.content_type)
+        return output % (size, myFile.filename, myFile.content_type)
 
 
 class DistrolessDemo_API(object):
@@ -84,17 +76,9 @@ class DistrolessDemo_API(object):
         return "This is the api"
 
     @cherrypy.expose
-    def status(self):
-        return "<html>Things are looking: Good </html>"
-
-    @cherrypy.expose
     def r(self):
         import random
         return str(random.randint(9999, 99999))
-
-    @cherrypy.expose
-    def download(self):
-        return "</html><h1>Download Things</h1></html>"
 
 if __name__ == '__main__':
     cherrypy.tree.mount(DistrolessDemo(), '/', conf)

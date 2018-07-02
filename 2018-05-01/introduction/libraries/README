@@ -1,4 +1,4 @@
-Importing wheels dynamically because reasons
+The Dockerfile will now download and install the WHLs
 
-run the requirements.sh to download things here.
+requirements.sh is left to show the user what is being used.
 

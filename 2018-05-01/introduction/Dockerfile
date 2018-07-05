@@ -9,8 +9,6 @@ LABEL description="Distroless Introduction"
 LABEL maintainer="Andrew Latham lathama@lathama.com"
 EXPOSE 8080/TCP
 COPY . /srv/app
-# COPY --from=build-env /usr/local/lib/python3.6/site-packages /usr/local/lib/python3.5/site-packages
-# ENV PYTHONPATH=/usr/local/lib/python3.5/site-packages
 COPY --from=build-env /usr/local/lib/python3.6/site-packages /site-packages
 ENV PYTHONPATH=/site-packages
 WORKDIR /srv/app

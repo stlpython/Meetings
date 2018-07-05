@@ -1,14 +1,5 @@
 import os
 import sys
-"""
-print(sys.path)
-lib = './libraries/'
-if os.path.isdir(lib):
-    for f in os.listdir(lib):
-        if os.path.isfile(lib + f) and os.path.splitext(lib + f)[1].lower() == '.whl':
-            sys.path.insert(1, lib + f)
-print(sys.path)
-"""
 import cherrypy
 
 """

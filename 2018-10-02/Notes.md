@@ -1,11 +1,11 @@
 ## Notes on the meeting to include questions, feedback, attendence etc...
-* Number of Meetup.com RSVPs: TBD
-* Number of actual people:
-* Start of presentation:
+* Number of Meetup.com RSVPs: 36
+* Number of actual people: 22
+* Start of presentation: 7pm
 * End of presentation:
 
 ## Questions:
- 1
+ 1. 
  
  2
  

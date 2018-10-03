@@ -5,7 +5,7 @@
 * End of presentation:
 
 ## Questions:
-Joe talking:
+Joe talking 1-15 and Matt talking after 15
  1. Is 5 == 5.0 allways true?
  2. Dicts are not ordered?
  3. Summary of the usage of brackets, parens, braces
@@ -20,8 +20,6 @@ Joe talking:
  12. Guessing game while loop clarification?
  13. Guessing game casting string to int and why non ints make it fail
  14. Exceptions and costs?
-
-Matt talking:
  15. So flask does http, mumble mumble tcp?
  16. can you use a variable in the output of the service? mentions global vars
  17. if I use the requests library? what is requests?

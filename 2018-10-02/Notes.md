@@ -30,7 +30,12 @@ Joe talking 1-15 and Matt talking after 15
  22. is there a way to listen for post?
  23. Can I install this on X Y or Z?
  
-  
+Random other quesitons
+ 1. Where is the meeting next?
+ 2. What is next months topic?
+ 3. What does 1904 do?
+ 4. Data science math courses suggestions?
+ 5. 
  
  Andrews notes
   1. Lots of mentions of packages which are actually modules. could be confusing 

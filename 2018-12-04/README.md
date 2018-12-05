@@ -30,5 +30,5 @@ https://anvil.works/blog/workshop-data-dashboard
 
 
 * meetup rsvp: 35 
-* head count: 11 (questionable weather)
+* head count: 12 (questionable weather)
 * first python meeting: 4

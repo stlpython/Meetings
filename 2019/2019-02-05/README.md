@@ -8,6 +8,6 @@ Name: Matt Arthur
 https://github.com/matthewarthur/presentations/blob/master/stl-python-feb19.md
 
 
-Attendees: 19
+Attendees: 20
 
 Notes several new faces
